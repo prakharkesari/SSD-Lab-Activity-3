@@ -1,0 +1,5 @@
+SELECT DISTINCT city
+FROM offices
+UNION
+SELECT DISTINCT city
+FROM customers;
